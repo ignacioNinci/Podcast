@@ -1,0 +1,34 @@
+// FOOTER // 
+
+footer {
+    width: 100%;
+    height: 121px;
+    background: white;
+    overflow: hidden;
+            .copyright {
+                width: 100%;
+                height: 22px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 22px;
+                font-family: $tipografia-IBM-mono;
+                font-size: 14px;
+                text-align: center;
+                position: relative;
+                top: 24px;
+
+            }
+}
+
+.redes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-left: 16px;
+    width: 292px;
+            i {
+                width: 16px;
+                height: 28px;
+            }
+}
